@@ -1,14 +1,14 @@
-<h2>Here are the farmer markets based on your search:</h2>
+<h2 class="ui purple header">Below is a listing of farmer markets based on your search:</h2>
 
-<h5>
+
+<h4 class="ui purple header">
+
 {{#each market in model}}
 {{log market}}
 
 <ul>
-<li><strong>{{market.market_name}}</strong></li>
-<li>Address: {{market.street_address}}</li>
-<li>Open Days and Hours: {{market.day_s}} from {{market.hours}}</li>
+<li>{{market.market_name}}, located at {{market.street_address}}. Open Days & Hours: {{market.day_s}} from {{market.hours}}</li>
 </ul>
 
 {{/each}}
-</h5>
+</h4>

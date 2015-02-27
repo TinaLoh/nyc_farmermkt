@@ -14,8 +14,9 @@ h1 {
 
 
 h5 {
-  margin-left: 80px;
+  text-align: center;
 }
+
 
 .ui {
   text-indent: 55px;
@@ -24,4 +25,10 @@ h5 {
 p {
     margin-top: 20px;
     text-indent: 55px;
+}
+
+ul {
+    width: 1400px;
+    margin: 0 auto;
+    text-align: left;
 }
